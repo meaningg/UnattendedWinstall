@@ -28,7 +28,6 @@ I've taken the time to add descriptions to almost all of the tweaks in the [auto
 
 Alternatively, you can download the file and use any one of the following programs to open it, inspect it and make changes to it if needed.  
 
-- [Cursor](https://www.cursor.com/) (my favorite)
 - [VSCode](https://code.visualstudio.com/)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
   
