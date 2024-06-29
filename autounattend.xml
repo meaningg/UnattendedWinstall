@@ -151,7 +151,6 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.BingSearch';
   'Microsoft.WindowsCalculator';
   'Microsoft.WindowsCamera';
-  'Clipchamp.Clipchamp';
   'Microsoft.WindowsAlarms';
   'Microsoft.549981C3F5F10';
   'Microsoft.Windows.DevHome';
@@ -162,18 +161,13 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsMaps';
   'Microsoft.ZuneVideo';
   'Microsoft.BingNews';
-  'Microsoft.WindowsNotepad';
   'Microsoft.MicrosoftOfficeHub';
   'Microsoft.Office.OneNote';
   'Microsoft.OutlookForWindows';
-  'Microsoft.Paint';
-  'Microsoft.MSPaint';
   'Microsoft.People';
-  'Microsoft.Windows.Photos';
   'Microsoft.PowerAutomateDesktop';
   'MicrosoftCorporationII.QuickAssist';
   'Microsoft.SkypeApp';
-  'Microsoft.ScreenSketch';
   'Microsoft.MicrosoftSolitaireCollection';
   'Microsoft.MicrosoftStickyNotes';
   'MSTeams';
@@ -182,7 +176,6 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsSoundRecorder';
   'Microsoft.BingWeather';
   'Microsoft.ZuneMusic';
-  'Microsoft.WindowsTerminal';
   'Microsoft.Xbox.TCUI';
   'Microsoft.XboxApp';
   'Microsoft.XboxGameOverlay';
@@ -203,7 +196,6 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.MixedReality.Portal';
   'Microsoft.Windows.Ai.Copilot.Provider';
   'Microsoft.WindowsMeetNow';
-  'Microsoft.WindowsStore';
 ) | Remove-AppxProvisionedPackage -AllUsers -Online *&gt;&amp;1 &gt;&gt; "$env:TEMP\remove-packages.log";
 		</File>
 		
